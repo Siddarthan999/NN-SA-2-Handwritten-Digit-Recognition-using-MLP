@@ -6,6 +6,35 @@ Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## Theory:
 Recognizing handwritten digits using a Multilayer Perceptron (MLP) is a common task in the field of machine learning and computer vision. MLPs are a type of artificial neural network with multiple layers of interconnected neurons, which can be trained to classify and recognize patterns in data, such as handwritten digits. 
+
+## Multilayer perceptron (MLP) overview
+
+The Multilayer Perceptron (MLP) is a type of feedforward neural network used to approach [multiclass classification](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture) problems. Before building an MLP, it is crucial to understand the concepts of perceptrons, layers, and activation functions.
+
+Multilayer Perceptrons are made up of functional units called perceptrons. The equation of a  perceptron is as follows:
+
+$$Z = \vec{w}⋅\mathrm{X} + b$$
+
+where
+
+* $Z$: perceptron output
+* $\mathrm{X}$: feature matrix
+* $\vec{w}$: weight vector
+* $b$: bias
+
+When these perceptrons are stacked, they form structures called dense layers which can then be connected to build a neural network. A dense layer's equation is similar to that of a perceptron's but uses a weight matrix and a bias vector instead:
+
+$$Z = \mathrm{W}⋅\mathrm{X} + \vec{b}$$
+
+where
+
+* $Z$: dense layer output
+* $\mathrm{X}$: feature matrix
+* $\mathrm{W}$: weight matrix
+* $\vec{b}$: bias vector
+
+
+In an MLP, multiple dense layers are connected in such a way that the outputs of one layer are fully connected to the inputs of the next layer. Adding non-linear activation functions to the outputs of dense layers can help the MLP classifier learn complex decision boundaries and generalize well to unseen data.
 ## Algorithm :
 
 * Prepare and preprocess a dataset of handwritten digits.
