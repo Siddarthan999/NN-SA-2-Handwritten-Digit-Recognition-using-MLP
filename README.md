@@ -7,7 +7,7 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## Theory:
 Recognizing handwritten digits using a Multilayer Perceptron (MLP) is a common task in the field of machine learning and computer vision. MLPs are a type of artificial neural network with multiple layers of interconnected neurons, which can be trained to classify and recognize patterns in data, such as handwritten digits. 
 
-## Multilayer perceptron (MLP) overview
+Multilayer perceptron (MLP) overview
 
 The Multilayer Perceptron (MLP) is a type of feedforward neural network used to approach [multiclass classification](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture) problems. Before building an MLP, it is crucial to understand the concepts of perceptrons, layers, and activation functions.
 
@@ -319,6 +319,60 @@ def show_confusion_matrix(test_labels, test_classes):
 show_confusion_matrix(y_test, test_classes)
 ```
 ## Output :
-
+```2.14.0```
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/5f6506ea-8753-4f59-8f4d-9bc9d34364c8)
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/4c26e59a-ade9-497a-a2d7-281a0de43ee4)
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/badd305a-737e-46d0-bf35-f645326a8a0b)
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/48003d16-2c1c-4e97-b653-05bf95e1ec93)
+```
+Epoch: 0
+Training loss: 0.222, Training accuracy: 0.934
+Validation loss: 0.121, Validation accuracy: 0.963
+Epoch: 1
+Training loss: 0.079, Training accuracy: 0.975
+Validation loss: 0.099, Validation accuracy: 0.971
+Epoch: 2
+Training loss: 0.047, Training accuracy: 0.986
+Validation loss: 0.088, Validation accuracy: 0.976
+Epoch: 3
+Training loss: 0.034, Training accuracy: 0.989
+Validation loss: 0.095, Validation accuracy: 0.975
+Epoch: 4
+Training loss: 0.026, Training accuracy: 0.992
+Validation loss: 0.110, Validation accuracy: 0.971
+Epoch: 5
+Training loss: 0.023, Training accuracy: 0.992
+Validation loss: 0.103, Validation accuracy: 0.976
+Epoch: 6
+Training loss: 0.018, Training accuracy: 0.994
+Validation loss: 0.096, Validation accuracy: 0.979
+Epoch: 7
+Training loss: 0.017, Training accuracy: 0.994
+Validation loss: 0.110, Validation accuracy: 0.977
+Epoch: 8
+Training loss: 0.017, Training accuracy: 0.994
+Validation loss: 0.117, Validation accuracy: 0.976
+Epoch: 9
+Training loss: 0.013, Training accuracy: 0.996
+Validation loss: 0.107, Validation accuracy: 0.979
+```
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/b146ed56-24d6-47ec-88ea-b5bc7e95fb79)
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/8ca157e2-970d-4643-8425-04d1c2f9be38)
+```
+Accuracy breakdown by digit:
+---------------------------
+Digit 6: 0.969
+Digit 9: 0.972
+Digit 7: 0.973
+Digit 5: 0.974
+Digit 3: 0.977
+Digit 4: 0.979
+Digit 0: 0.981
+Digit 8: 0.982
+Digit 2: 0.987
+Digit 1: 0.992
+```
+![image](https://github.com/Siddarthan999/NN-SA-2-Handwritten-Digit-Recognition-using-MLP/assets/91734840/67a83c96-bc2c-47fe-80cf-92cfdedfa00c)
 
 ## Result:
+Thus, the Recognition of Handwritten Digits using Multilayer perceptron has been implemented and executed successfully.
